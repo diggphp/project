@@ -1,0 +1,15 @@
+{
+    "name": "diggphp/project",
+    "description": "DiggPHP工程框架",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "GPL-3.0",
+    "scripts": {
+        "post-package-install": "DiggPHP\\Framework\\Script::onInstall",
+        "post-package-update": "DiggPHP\\Framework\\Script::onUpdate",
+        "pre-package-uninstall": "DiggPHP\\Framework\\Script::onUninstall"
+    },
+    "require": {
+        "diggphp/framework": "^1.0"
+    }
+}
