@@ -7,7 +7,7 @@
     "scripts": {
         "post-package-install": "DiggPHP\\Framework\\Script::onInstall",
         "post-package-update": "DiggPHP\\Framework\\Script::onUpdate",
-        "pre-package-uninstall": "DiggPHP\\Framework\\Script::onUninstall"
+        "pre-package-uninstall": "DiggPHP\\Framework\\Script::onUnInstall"
     },
     "require": {
         "diggphp/framework": "^1.0"
